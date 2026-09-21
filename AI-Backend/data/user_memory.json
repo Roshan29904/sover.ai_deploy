@@ -1,0 +1,11 @@
+{
+  "persist-user": {
+    "name": "Alex"
+  },
+  "user-42": {
+    "name": "Alex"
+  },
+  "default-user": {
+    "name": "roshan"
+  }
+}
