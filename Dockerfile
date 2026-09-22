@@ -22,5 +22,4 @@ COPY . .
 # FastAPI port
 EXPOSE 8000
 
-# Start FastAPI
-CMD ["uvicorn", "fast_api.app:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["sh", "-c", "uvicorn fast_api.app:app --host 0.0.0.0 --port ${PORT:-8000}"]
