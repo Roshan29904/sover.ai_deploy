@@ -63,7 +63,7 @@ except (
     ModuleNotFoundError,
 ):
 
-    from routes import (
+    from fast_api.routes import (
         router,
         WindowsPathJsonRoute,
     )
